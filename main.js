@@ -10,4 +10,10 @@ document.addEventListener("DOMcontentLoaded", function () {
     alert("webgl not supported!");
     return;
   }
+
+  // canvasを初期化する色を設定する
+  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+  // canvasを初期化する
+  gl.clear(gl.COLOR_BUFFER_BIT);
 });
