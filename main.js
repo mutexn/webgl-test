@@ -1,4 +1,4 @@
-document.addEventListener("DOMcontentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   // HTMLからcanvas要素を取得する
   const canvas = document.getElementById("canvas");
 
